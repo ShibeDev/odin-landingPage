@@ -6,30 +6,50 @@ body{
 
 .header{
     background-color: #1F2937;
-    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-bottom: 48px;
 }
 
 .headerContent{
     display: flex;
     padding-left: 100px;
     padding-right: 100px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.leftHeader{
+    flex: 1;
+    flex-wrap: wrap;
+    
     
 }
 
-.left{
-  
-    flex-wrap: wrap;
-    max-width: 100px;
+.rightHeader{
+    flex: 1;
+    background-color: grey;
+    height: 200px;
+    max-width: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigLogo{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
 }
 
 .headerSubtext{
     flex-wrap: wrap;
     max-width: 300px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .topBar{
@@ -44,6 +64,12 @@ body{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 800;
+}
+
+.bigLogo{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
 }
 
 .links{
@@ -63,5 +89,15 @@ a{
     font-size: 18px;
     color: #E5E7EB;
 }
-  
-  
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.signUp{
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
