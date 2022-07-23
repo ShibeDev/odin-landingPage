@@ -25,18 +25,21 @@ body{
 
 .leftHeader{
     flex: 1;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
     
 }
 
 .rightHeader{
     flex: 1;
     background-color: grey;
-    height: 200px;
+    height: 250px;
     max-width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #E5E7EB;
 }
 
 .bigLogo{
@@ -61,14 +64,6 @@ body{
 }
 
 .logo{
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 800;
-}
-
-.bigLogo{
-    font-size: 48px;
-    font-weight: 800;
     color: #F9FAF8;
 }
 
@@ -93,6 +88,7 @@ a{
 button {
     padding: 8px 16px;
     border-radius: 8px;
+    max-width: 100px;
 }
 
 .signUp{
