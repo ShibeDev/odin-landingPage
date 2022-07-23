@@ -10,6 +10,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 48px;
+    gap: 48px;
 }
 
 .headerContent{
@@ -26,14 +27,13 @@ body{
     flex: 1;
     flex-wrap: wrap;
     
-    
 }
 
 .rightHeader{
     flex: 1;
     background-color: grey;
     height: 200px;
-    max-width: 300;
+    max-width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@ body{
 
 .headerSubtext{
     flex-wrap: wrap;
-    max-width: 300px;
+    
     font-size: 18px;
     color: #E5E7EB;
 }
