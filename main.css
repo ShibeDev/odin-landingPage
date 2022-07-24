@@ -90,6 +90,22 @@ button {
     color: white;
 }
 
+.infoSection{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 48px;
+    gap: 48px;
+}
+
+.infoTitle{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
 .footer {
     position: fixed;
     bottom: 0;
