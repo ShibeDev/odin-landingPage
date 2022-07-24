@@ -95,16 +95,37 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     padding-bottom: 48px;
-    gap: 48px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .infoTitle{
+    align-self: center;
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
 }
+
+.infoContent{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-box{
+    max-width: 200px;
+}
+
+.infoImage{
+    border: 5px solid royalblue;
+    width: 180px;
+}
+
+.infoText{
+    font-size: 18px;
+}
+
 
 .footer {
     position: fixed;
