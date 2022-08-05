@@ -140,7 +140,7 @@ button {
     padding-left: 100px;
     padding-right: 100px;
     background-color: #E5E7EB;
-    align-items: flex-end;
+    
 }
 
 .quote{
@@ -150,13 +150,62 @@ button {
 }
 
 .quoteBy{
-    align-self: right;
+    display: flex;
+    justify-content: space-between;
     font-weight: 800;
 }
 
+.actionSection{
+    display: flex;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionContainer{
+    display: flex;
+    flex: 1;
+    height: 200px;
+    border-radius: 8px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+}
+
+.actionTitle{
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.actionText{
+    font-size: 16px;
+    flex-wrap: wrap;
+    font-weight: 400;
+    color: #E5E7EB;
+}
+
+.signUp.bigger{
+    flex: 1;
+    font-size: 24px;
+    font-weight: 800;
+    max-width: 200px;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-width: 2px;
+}
+
+
 
 .footer {
-    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
