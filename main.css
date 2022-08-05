@@ -1,4 +1,10 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+
 .header{
+    flex: 1;
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -105,6 +111,7 @@ button {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    margin-bottom: 36px;
 }
 
 .infoContent{
@@ -119,11 +126,32 @@ button {
 
 .infoImage{
     border: 5px solid royalblue;
-    width: 180px;
+    width: 100px;
 }
 
 .infoText{
     font-size: 18px;
+}
+
+.quoteSection{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 48px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #E5E7EB;
+    align-items: flex-end;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoteBy{
+    align-self: right;
+    font-weight: 800;
 }
 
 
